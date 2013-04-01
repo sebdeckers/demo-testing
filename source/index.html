@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<title>Gougel</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+<div class="container">
+	<h1>Hello there!</h1>
+	<p class="lead">Balance: <span class="balance"></span><p>
+	<form action="http://www.google.com/search">
+		<fieldset>
+			<legend>Gougel</legend>
+			<input type="text" name="q"
+				class="input-medium search-query"
+				placeholder="Looking for?"
+				autofocus="autofocus"
+				autocomplete="off">
+			<button type="submit" class="btn">Search</button>
+		</fieldset>
+	</form>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js"></script>
+<script src="js/helpers/currency.js"></script>
+<script src="js/app.js"></script>
